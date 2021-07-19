@@ -1,0 +1,8 @@
+<!--pages/KTV/detail.wxml-->
+<view class="wrap">
+  <view class="content"></view>
+  <view class="btn">
+    <button data-url="../order/list" bindtap="Navigate">立即预定</button>
+    <button data-url="../order/list" bindtap="Navigate">购买权益</button>
+  </view>
+</view>

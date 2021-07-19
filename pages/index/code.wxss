@@ -1,0 +1,13 @@
+/* pages/index/code.wxss */
+view {
+  position: relative;
+}
+view canvas {
+  position: absolute;
+  /* top: 100px;
+  left: 100px;
+  margin-top: -50px;
+  margin-left: -50px; */
+  top: 50px;
+  left: 50px;
+}

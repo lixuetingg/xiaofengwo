@@ -1,0 +1,22 @@
+/* pages/KTV/detail.wxss */
+.content{
+  width: 100%;
+  height: 400rpx;
+  background-color: #ccc;
+}
+.btn{
+  margin: 0rpx 30rpx 30rpx 30rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+button{
+  display: inline-block;
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-color: #ccc;
+  text-align: center;
+  font-size: 13px;
+  margin: 0rpx 70rpx 0rpx 70rpx;
+}

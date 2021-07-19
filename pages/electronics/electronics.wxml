@@ -1,0 +1,142 @@
+<!--pages/electronics/electronics.wxml-->
+<!-- <view class='prolist'>
+ <block wx:for='{{prolist}}' wx:key="index">
+    <view class='prolist_item' bindtap="switchProductDetail" data-clickindex="{{index}}">
+      <view class='prolist_cover'>
+        <image src='{{item.cover}}'></image>
+      </view>
+      <view class='prolist_info'>
+        <view class='prolist_title'>
+          <text>{{item.title}}</text>
+        </view>
+        <view class='prolist_price'>
+          <text>¥ {{item.price}}</text>
+        </view>
+        <view class='prolist_other'>
+          <text class='prolist_conmment'>{{item.comment}}条评价</text>
+          <text class='prolist_rate'>好评率{{item.rate}}</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  <view class='endview' wx:if='{{noData}}'>
+    <text>没有更多数据</text>
+  </view>
+</view> -->
+<view class='prolist'>
+  <block>
+    <view class='prolist_item' bindtap="switchProductDetail" data-clickindex="{{index}}">
+      <view class='prolist_cover'>
+        <image src='../../images/2.png'></image>
+      </view>
+      <view class='prolist_info'>
+        <view class='prolist_title'>
+          <text>啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓</text>
+        </view>
+        <view class='prolist_price'>
+          <text>¥17100.00</text>
+          <text class="prolist_price_name">秒杀价</text>
+          <text>¥14199.00</text>
+          <text class="prolist_price_name">权益价</text>
+          <text class="prolist_price_name">自营</text>
+          <text class="prolist_price_name">京东超市</text>
+          <text class="prolist_price_names">多买优惠</text>
+          <text class="prolist_price_names">分期免息</text>
+        </view>
+        <view class='prolist_other'>
+          <!-- <text class='prolist_conmment'>89条评价</text>
+          <text class='prolist_rate'>好评率98%</text> -->
+          <button>京东价购买</button>
+          <button>权益价购买</button>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block>
+    <view class='prolist_item' bindtap="switchProductDetail" data-clickindex="{{index}}">
+      <view class='prolist_cover'>
+        <image src='../../images/2.png'></image>
+      </view>
+      <view class='prolist_info'>
+        <view class='prolist_title'>
+          <text>啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓</text>
+        </view>
+        <view class='prolist_price'>
+          <text>¥17100.00</text>
+          <text class="prolist_price_name">秒杀价</text>
+          <text>¥14199.00</text>
+          <text class="prolist_price_name">权益价</text>
+          <text class="prolist_price_name">自营</text>
+          <text class="prolist_price_name">京东超市</text>
+          <text class="prolist_price_names">多买优惠</text>
+          <text class="prolist_price_names">分期免息</text>
+        </view>
+        <view class='prolist_other'>
+          <!-- <text class='prolist_conmment'>89条评价</text>
+          <text class='prolist_rate'>好评率98%</text> -->
+          <button>京东价购买</button>
+          <button>权益价购买</button>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block>
+    <view class='prolist_item' bindtap="switchProductDetail" data-clickindex="{{index}}">
+      <view class='prolist_cover'>
+        <image src='../../images/2.png'></image>
+      </view>
+      <view class='prolist_info'>
+        <view class='prolist_title'>
+          <text>啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓</text>
+        </view>
+        <view class='prolist_price'>
+          <text>¥17100.00</text>
+          <text class="prolist_price_name">秒杀价</text>
+          <text>¥14199.00</text>
+          <text class="prolist_price_name">权益价</text>
+          <text class="prolist_price_name">自营</text>
+          <text class="prolist_price_name">京东超市</text>
+          <text class="prolist_price_names">多买优惠</text>
+          <text class="prolist_price_names">分期免息</text>
+        </view>
+        <view class='prolist_other'>
+          <!-- <text class='prolist_conmment'>89条评价</text>
+          <text class='prolist_rate'>好评率98%</text> -->
+          <button>京东价购买</button>
+          <button>权益价购买</button>
+        </view>
+      </view>
+    </view>
+  </block>
+  <block>
+    <view class='prolist_item' bindtap="switchProductDetail" data-clickindex="{{index}}">
+      <view class='prolist_cover'>
+        <image src='../../images/2.png'></image>
+      </view>
+      <view class='prolist_info'>
+        <view class='prolist_title'>
+          <text>啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓检查好几次机会啊海关大厦检查计划嚓嚓嚓</text>
+        </view>
+        <view class='prolist_price'>
+          <text>¥17100.00</text>
+          <text class="prolist_price_name">秒杀价</text>
+          <text>¥14199.00</text>
+          <text class="prolist_price_name">权益价</text>
+          <text class="prolist_price_name">自营</text>
+          <text class="prolist_price_name">京东超市</text>
+          <text class="prolist_price_names">多买优惠</text>
+          <text class="prolist_price_names">分期免息</text>
+        </view>
+        <view class='prolist_other'>
+          <!-- <text class='prolist_conmment'>89条评价</text>
+          <text class='prolist_rate'>好评率98%</text> -->
+          <button>京东价购买</button>
+          <button>权益价购买</button>
+        </view>
+      </view>
+    </view>
+  </block>
+  <view class='endview'>
+    <text>没有更多数据</text>
+  </view>
+</view>

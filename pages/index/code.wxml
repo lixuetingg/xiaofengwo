@@ -1,0 +1,5 @@
+<!--pages/index/code.wxml-->
+<view>
+  <canvas style="width: 200px; height: 200px;" canvas-id="myQrcode"></canvas>
+</view>
+

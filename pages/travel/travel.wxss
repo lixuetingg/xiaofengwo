@@ -1,0 +1,13 @@
+/* pages/travel/travel.wxss */
+.wrap{
+  padding: 10px 30rpx 10rpx 30rpx;
+}
+.city{
+  display: inline-block;
+  width: 300rpx;
+  height: 300rpx;
+  line-height: 300rpx;
+  border: 1px solid #ccc;
+  margin: 0rpx 20rpx 20rpx 20rpx;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/cashier/cashier",
+          "pathName": "pages/cashier/cashier",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

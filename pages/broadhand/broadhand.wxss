@@ -1,0 +1,23 @@
+/* pages/broadhand/broadhand.wxss */
+.row{
+  height: 200rpx;
+  line-height: 200rpx;
+  border-top: 1px solid #ddd;
+  padding: 0px 40rpx 0rpx 40rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.change{
+  padding: 30rpx 0rpx 10rpx 40rpx;
+  font-size: 12px;
+  color: #ccc;
+}
+/* .detail{
+  display: inline-block;
+  width: 90rpx;
+  height: 40rpx;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+} */

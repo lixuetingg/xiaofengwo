@@ -1,0 +1,101 @@
+<view class="container">
+  <view class="common-header-xian"></view>
+  <!-- 表单 -->
+  <form bindsubmit="saveData" report-submit="true">
+    <!-- <view class="address-cont-title b-f b-b">
+      <view class="list address-box dis-flex b-b">
+        <view class="left-name">
+          <text class="f-30">编辑资料</text>
+        </view>
+      </view>
+    </view> -->
+    <view class="address-cont-title b-f b-b">
+      <view class="list address-box dis-flex b-b">
+        <view class="left-name">
+          <!-- <text class="f-30">用户头像</text> -->
+          <view class="topImg">
+            <view class="topImg-item">
+              <view class="t-i-left">
+                <view class="image" bind:tap="imageClick">
+                  <image src="{{imgUrl}}{{image}}" />
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="right-cont flex-box">
+          <text bind:tap="imageClick" class="col-7">修改头像</text>
+        </view>
+      </view>
+    </view>
+    <view class="address-cont-title b-f b-b">
+      <view class="list address-box dis-flex b-b">
+        <view class="left-name">
+          <text class="f-30">用户昵称</text>
+        </view>
+        <view class="right-cont flex-box">
+          <input name="nickname" placeholder="请输入用户昵称" value="{{nickname}}"></input>
+        </view>
+      </view>
+      <view class="list address-box dis-flex">
+        <view class="left-name">
+          <text class="f-30">性别</text>
+        </view>
+        <view class="right-cont flex-box">
+          <picker mode="selector" range="{{array}}" bindchange="bindSexChange">
+            <text wx:if="{{array[index]}}" class="f-30">{{array[index]}}</text>
+            <text wx:else class="f-30 col-7">选择男、女</text>
+          </picker>
+        </view>
+      </view>
+    </view>
+    <view class="address-cont-title b-f b-b">
+      <view class="dis-flex list address-box m-top20 b-b">
+        <view class="left-name">
+          <text class="f-30">常住地</text>
+        </view>
+        <view class="address-cont-box flex-box">
+          <picker mode="region" bindchange="bindRegionChange">
+            <text wx:if="{{areaName}}" class="f-30">{{areaName}}</text>
+            <text wx:else class="f-30 col-7">选择省、市、区</text>
+          </picker>
+        </view>
+      </view>
+      <view class="dis-flex list address-box">
+        <view class="left-name">
+          <text class="f-30">生日</text>
+        </view>
+        <view class="right-cont flex-box">
+          <picker mode="date" bindchange="bindBirthdayChange">
+            <text wx:if="{{birthday}}" class="f-30">{{birthday}}</text>
+            <text wx:else class="f-30 col-7">选择日期</text>
+          </picker>
+        </view>
+      </view>
+      <view class="dis-flex list address-box">
+        <view class="left-name">
+          <text class="f-30">个性签名</text>
+        </view>
+        <view class="right-cont flex-box">
+          <input name="personalizedSignature" placeholder="请输入个性签名" type="text"
+            value="{{personalizedSignature}}"></input>
+        </view>
+      </view>
+      <view class="dis-flex list address-box">
+        <view class="left-name">
+          <text class="f-30">二维码</text>
+        </view>
+        <view class="right-cont flex-box">
+          <!-- <text bind:tap="codeClick" class="col-7">点击查看</text> -->
+          <navigator class="col-7" url="/pages/index/code" open-type='navigateTo' >点击查看</navigator>
+        </view>
+      </view>
+    </view>
+    <view class="padding-box m-top20 profile-btn">
+      <button formType="submit" disabled="{{disabled}}">保存设置</button>
+    </view>
+  </form>
+</view>
+
+<!-- 快捷导航 -->
+<shortcut></shortcut>

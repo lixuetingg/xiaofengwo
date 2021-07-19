@@ -1,0 +1,15 @@
+<!--pages/language/language.wxml-->
+<view class="select-box">
+  <view>
+    <text class="name">英语类考研</text>
+    <text class="btn" data-url="../CET/CET" bindtap="Navigate">详情介绍</text>
+  </view>
+  <view>
+    <text class="name">英语类考研</text>
+    <text class="btn" data-url="../CET/CET" bindtap="Navigate">详情介绍</text>
+  </view>
+  <view>
+    <text class="name">英语类考研</text>
+    <text class="btn" data-url="../CET/CET" bindtap="Navigate">详情介绍</text>
+  </view>
+</view>

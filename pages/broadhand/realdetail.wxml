@@ -1,0 +1,5 @@
+<!--pages/broadhand/realdetail.wxml-->
+<view class="wrap">
+  <view class="content"></view>
+  <button bindtap="Navigate">返回</button>
+</view>

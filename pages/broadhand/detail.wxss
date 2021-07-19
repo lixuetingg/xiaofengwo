@@ -1,0 +1,34 @@
+/* pages/broadhand/detail.wxss */
+.select-box{
+  width: 750rpx;
+  background-color: #fff;
+}
+
+.select-box view{
+  width: 750rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  margin: 30rpx 0rpx;
+  padding: 0rpx 10rpx;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+}
+
+.select-box view .name{
+  display: inline-block;
+  width: 510rpx;
+}
+
+.select-box view .btn{
+  /* display: inline-block; */
+  float: right;
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  background-color: #ccc;
+  text-align: center;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+}

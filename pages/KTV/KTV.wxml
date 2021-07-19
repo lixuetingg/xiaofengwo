@@ -1,0 +1,83 @@
+<!--pages/KTV/KTV.wxml-->
+<view class="wrap">
+  <view class="row">
+    <view class="row1">
+      <text class="name">KTV1</text>
+      <text class="price">￥68元起</text>
+    </view>
+    <view class="row2">
+      <view class="row2-left">
+        <text class="praise">好评度93%</text>
+        <text class="address">朝阳区三元桥曙光西里甲5号院凤凰汇朝阳区三元桥曙光西里甲5号院凤凰汇...</text>
+      </view>
+      <text class="distance">0.3km</text>
+    </view>
+    <view class="row3">
+      <button data-url="./detail" bindtap="Navigate">详情</button>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row1">
+      <text class="name">KTV1</text>
+      <text class="price">￥68元起</text>
+    </view>
+    <view class="row2">
+      <view class="row2-left">
+        <text class="praise">好评度923%</text>
+        <text class="address">朝阳区三元桥曙光西里甲5号院凤凰汇朝阳区三元桥曙光西里甲5号院凤凰汇...</text>
+      </view>
+      <text class="distance">0.3km</text>
+    </view>
+    <view class="row3">
+      <button data-url="./detail" bindtap="Navigate">详情</button>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row1">
+      <text class="name">KTV1</text>
+      <text class="price">￥68元起</text>
+    </view>
+    <view class="row2">
+      <view class="row2-left">
+        <text class="praise">好评度93%</text>
+        <text class="address">朝阳区三元桥曙光西里甲5号院凤凰汇朝阳区三元桥曙光西里甲5号院凤凰汇...</text>
+      </view>
+      <text class="distance">0.3km</text>
+    </view>
+    <view class="row3">
+      <button data-url="./detail" bindtap="Navigate">详情</button>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row1">
+      <text class="name">KTV1</text>
+      <text class="price">￥68元起</text>
+    </view>
+    <view class="row2">
+      <view class="row2-left">
+        <text class="praise">好评度93%</text>
+        <text class="address">朝阳区三元桥曙光西里甲5号院凤凰汇朝阳区三元桥曙光西里甲5号院凤凰汇...</text>
+      </view>
+      <text class="distance">0.3km</text>
+    </view>
+    <view class="row3">
+      <button data-url="./detail" bindtap="Navigate">详情</button>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row1">
+      <text class="name">KTV1</text>
+      <text class="price">￥68元起</text>
+    </view>
+    <view class="row2">
+      <view class="row2-left">
+        <text class="praise">好评度93%</text>
+        <text class="address">朝阳区三元桥曙光西里甲5号院凤凰汇朝阳区三元桥曙光西里甲5号院凤凰汇...</text>
+      </view>
+      <text class="distance">0.3km</text>
+    </view>
+    <view class="row3">
+      <button data-url="./detail" bindtap="Navigate">详情</button>
+    </view>
+  </view>
+</view>

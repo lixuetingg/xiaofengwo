@@ -1,0 +1,50 @@
+/* pages/KTV/KTV.wxss */
+.row{
+  padding: 30rpx 30rpx 0rpx 30rpx;
+  border-bottom: 1px solid #ddd;
+  font-size: 10px;
+}
+.row1,.row2{
+  display: flex;
+  justify-content: space-between;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.name{
+  font-size: 14px;
+  font-weight: bold;
+}
+.price{
+  color: rgb(255, 0, 255);
+}
+.praise{
+  display: inline-block;
+  width: 140rpx;
+  padding-right: 15rpx;
+  overflow: hidden;
+  color: tomato;
+}
+.address{
+  display: inline-block;
+  width: 430rpx;
+  white-space: nowrap;
+  /* 内容溢出隐藏 */
+  overflow: hidden;
+  /* 文字溢出部分变成省略号... */
+  text-overflow: ellipsis;
+  color: #aaa;
+}
+.distance{
+  color: #aaa;
+}
+.row3{
+ margin: 20rpx 0rpx 20rpx 0rpx;
+ overflow: hidden;
+}
+.row3 button{
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 11px;
+  float: right;
+}

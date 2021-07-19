@@ -1,0 +1,40 @@
+/* pages/language/language.wxss */
+.select-box{
+  width: 750rpx;
+  /* background-color: #fff; */
+}
+
+.select-box view{
+  width: 750rpx;
+  height: 120rpx;
+  line-height: 120rpx;
+  /* margin: 30rpx 0rpx;
+  padding: 0rpx 10rpx; */
+  /* border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; */
+  font-size: 12px;
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+
+.select-box view .name{
+  display: inline-block;
+  width: 300rpx;
+  height: 120rpx;
+  padding-left: 10rpx;
+  border: 1px solid #ccc;
+}
+
+.select-box view .btn{
+  /* display: inline-block; */
+  float: right;
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  background-color: #ccc;
+  text-align: center;
+  margin-right: 20rpx;
+  margin-top: 10rpx;
+  font-size: 10px;
+}

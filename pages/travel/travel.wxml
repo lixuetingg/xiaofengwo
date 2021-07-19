@@ -1,0 +1,9 @@
+<!--pages/travel/travel.wxml-->
+<view class="wrap">
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+  <text class="city" data-url="./detail" bindtap="Navigate">城市1</text>
+</view>

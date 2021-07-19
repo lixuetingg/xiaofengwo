@@ -1,0 +1,46 @@
+<!--pages/cashier/cashier.wxml-->
+<view class="wrap">
+  <form action="">
+    <view class="price">￥8999.00</view>
+    <view class="nav">京东支付</view>
+    <view class="jdpay">
+      <view class="list">
+        <text class="icon" style="background-color:red"></text>
+        <text class="name">招商银行储蓄卡（8047）</text>
+        <!-- <input class="radio_type" type="radio" name="type" id="radio1" checked="checked"/> -->
+        <label class="unSelected selected" for="choose">
+          <checkbox clsss="choose" />
+        </label>
+        <text class="lable">跨自营/店铺满减</text>
+      </view>
+      <view class="list">
+        <text class="icon" style="background-color:green"></text>
+        <text class="name">余额支付（账户余额：0.00）</text>
+      </view>
+      <view class="list">
+        <text class="icon" style="background-color:black"></text>
+        <text class="name">Apple pay</text>
+      </view>
+      <view class="list">
+        <text class="icon" style="background-color:#fff"></text>
+        <text class="name">其他付款方式</text>
+        <text class="othercard">其他银行卡、绑定新卡 ></text>
+      </view>
+    </view>
+    <view class="wxpay">
+      <view class="list">
+        <text class="icon" style="background-color:green"></text>
+        <text class="name">微信支付</text>
+      </view>
+      <view class="list">
+        <text class="icon" style="background-color:red"></text>
+        <text class="name">云闪付</text>
+      </view>
+      <view class="list">
+        <text class="icon" style="background-color:green"></text>
+        <text class="name">微信好友代付</text>
+      </view>
+    </view>
+    <button>银行卡支付￥8999.00</button>
+  </form>
+</view>

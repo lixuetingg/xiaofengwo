@@ -1,0 +1,16 @@
+<!--pages/broadhand/broadhand.wxml-->
+<view class="wrap">
+  <view class="change">网络供应商选择：</view>
+  <view class="row">
+    <text>中国移动</text>
+    <text class="detail" data-url="./detail" bindtap="Navigate">详情</text>
+  </view>
+  <view class="row">
+    <text>中国联通</text>
+    <text class="detail">详情</text>
+  </view>
+  <view class="row">
+    <text>中国电信</text>
+    <text class="detail">详情</text>
+  </view>
+</view>
